@@ -39,7 +39,7 @@ const Game = () => {
                     squares.map((e, i) => {
                         return (
                             <li key={e}>
-                                <button onClick={() => { move(i) }}>{i+1}</button>
+                                <button onClick={() => { move(i) }}>Step #{i+1}</button>
                             </li>
                         )
                     })}
